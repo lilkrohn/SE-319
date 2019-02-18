@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<script src="validation1.js"></script>
+	<link rel="stylesheet" href="validation1.css" type="text/css">
+	<meta charset="utf-8">
+	<title>Validation Form</title>
+</style>
+</head>
+<body>
+	<h1>Validation Form</h1>
+	<form name="validationForm" onsubmit="return validation1()">
+		<div>
+			<label for="firstname">First Name:</label>
+			<input type="text" id="firstName" name="Firstname" required>
+			<img id="firstNameimg" src="" style="position: absolute" hidden
+			width="40" height="40">
+		</div>
+		<div>
+			<label for="lastname">Last Name:</label>
+			<input type="text" id="lastName" name="Lastname" required>
+			<img id="lastNameimg" src="" style="position: absolute" hidden
+			width="40" height="40">
+		</div>
+		<div>
+			<label for="gender">Gender:</label>
+			<select id="gender" name="Gender">
+				<option value="Blank"></option>
+				<option value="Male">Male</option>
+				<option value="Female">Female</option>
+			</select>
+			<img id="genderimg" src="" style="position: absolute" hidden
+			width="40" height="40">
+		</div>
+		<div>
+			<label for="state">State:</label>
+			<select id="state" name="State">
+				<option value="Blank"></option>
+				<option value="California">California</option>
+				<option value="Florida">Florida</option>
+				<option value="New-York">New York</option>
+				<option value="Texas">Texas</option>
+				<option value="Hawaii">Hawaii</option>
+				<option value="Washington">Washington</option>
+				<option value="Colorado">Colorado</option>
+				<option value="Virginia">Virginia</option>
+				<option value="Iowa">Iowa</option>
+				<option value="Arizona">Arizona</option>
+			</select>
+			<img id="stateimg" src="" style="position: absolute" hidden
+			width="40" height="40">
+		</div>
+		<div class="button">
+			<button id="submit" type="submit">Continue</button>
+		</div>
+	</form>
+</body>
+</html>

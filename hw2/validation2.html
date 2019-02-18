@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<script src="validation2.js"></script>
+	<link rel="stylesheet" href="validation2.css" type="text/css">
+	<meta charset="utf-8">
+	<title>Contact Information</title>
+</head>
+<body>
+	<h1>Contact Information</h1>
+	<form name="submissionForm" onsubmit="return validation2()">
+		<div>
+			<label for="email">Email:</label>
+			<input type="text" id="email" name="e_mail" required>
+			<img id="mailimg" src="" style="position: absolute" hidden
+			width="40" height="40">
+		</div>
+		<div>
+			<label for="phone">Phone:</label>
+			<input type="text" id="phone" name="phone_number" required>
+			<img id="phoneimg" src="" style="position: absolute" hidden
+			width="40" height="40">
+		</div>
+		<div>
+			<label for="address">Address:</label>
+			<input type="text" id="address" name="user_address" required>
+			<img id="addressimg" src="" style="position: absolute" hidden
+			width="40" height="40">
+		</div>
+		<div class="button">
+			<button type="submit">Submit</button>
+		</div>
+	</form>
+</body>
+</html>
