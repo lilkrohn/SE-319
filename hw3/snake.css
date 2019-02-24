@@ -1,0 +1,31 @@
+h1 {
+  margin-left: 15px;
+}
+.container{
+  	margin-left: 15px;
+    width: 100%;
+    float: left;
+    text-align: left;
+    padding-bottom: 15px;
+}
+.container button{
+    display: inline-block;
+}
+#start{
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-right: 10px;
+}
+#left{
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-right: 10px;
+}
+#right{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+#canvasID{
+	margin-left: 15px;
+}
+
